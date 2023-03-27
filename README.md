@@ -1,11 +1,11 @@
-About r-gdalutilities
-=====================
+About r-gdalutilities-feedstock
+===============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-gdalutilities-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/JoshOBrien/gdalUtilities/
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-gdalutilities-feedstock/blob/main/LICENSE.txt)
 
 Summary: R's 'sf' package ships with self-contained 'GDAL' executables, including a bare bones interface to several 'GDAL'-related utility programs collectively known as the 'GDAL utilities'. For each of those utilities, this package provides an R wrapper whose formal arguments closely mirror those of the 'GDAL' command line interface. The utilities operate on data stored in files and typically write their output to other files. Therefore, to process data stored in any of R's more common spatial formats (i.e. those supported by the 'sp', 'sf', and 'raster' packages), first write them to disk, then process them with the package's wrapper functions before reading the outputted results back into R. GDAL function arguments introduced in GDAL version 3.2.1 or earlier are supported.
 
